@@ -1,0 +1,467 @@
+java Main
+----------- Testing The Database Constructor ----------
+---------------------- D O N E ------------------------
+------------ Testing The Insert Function --------------
+---------------------- D O N E ------------------------
+------------- Now Printing The Database ---------------
+LST110  Language and study skills 110                                              6    1       Sem 1
+WTW124  Mathematics 124                                                            16   1       Sem 2
+UP0102  Academic orientation 102                                                   0    1       Year
+WTW114  Calculus 114                                                               16   1       Sem 1
+WTW123  Numerical analysis 123                                                     8    1       Sem 2
+PHY114  First course in physics 114                                                16   1       Sem 1
+PHY124  First course in physics 124                                                16   1       Sem 2
+AIM102  Academic information management 102                                        6    1       Sem 2
+COS122  Operating systems 122                                                      16   1       Sem 2
+COS132  Imperative programming 132                                                 16   1       Sem 1
+COS110  Program design: Introduction 110                                           16   1       Sem 2
+COS151  Introduction to computer science 151                                       8    1       Sem 1
+COS212  Data structures and algorithms 212                                         16   2       Sem 1
+COS226  Concurrent systems 226                                                     16   2       Sem 2
+COS284  Computer organisation and architecture 284                                 16   2       Sem 2
+COS210  Theoretical computer science 210                                           8    2       Sem 1
+WTW248  Vector analysis 248                                                        12   2       Sem 2
+PHY255  Waves, thermodynamics and modem physics 255                                24   2       Sem 1
+PHY263  General physics 263                                                        24   2       Sem 2
+WTW211  Linear algebra 211                                                         12   2       Sem 1
+WTW218  Calculus 218                                                               12   2       Sem 1
+WTW220  Analysis 220                                                               12   2       Sem 2
+COS314  Artificial intelligence 314                                                18   3       Sem 1
+COS330  Computer security and ethics 330                                           18   3       Sem 2
+COS333  Programming languages 333                                                  18   3       Sem 2
+COS344  Computer graphics 344                                                      18   3       Sem 1
+PHY310  Particle and astroparticle physics 310                                     18   3       Sem 2
+PHY356  Electronics, electromagnetism and quantum mechanics 356                    36   3       Sem 1
+PHY364  Statistical mechanics, solid state physics and modelling 364               36   3       Sem 2
+COS711  Artificial Intelligence (II) 711                                           15   4       Sem 2
+FSK700  Physics 700                                                                135  4       Year
+---------------------- D O N E ------------------------
+------------ Printing the Indexes Arrays --------------
+-- Module Codes Treap<Cell>: --
+-------------------------------------------------------
+COS344{25}[121]
+├(L)─ COS122{8}[95]
+|    ├(L)─ AIM102{7}[54]
+|    |    └(R)─ COS110{10}[46]
+|    └(R)─ COS314{22}[72]
+|       ├(L)─ COS284{14}[62]
+|       |    └(L)─ COS151{11}[62]
+|       |         ├(L)─ COS132{9}[55]
+|       |         └(R)─ COS210{15}[61]
+|       |            └(R)─ COS212{12}[60]
+|       |               └(R)─ COS226{13}[2]
+|       └(R)─ COS330{23}[52]
+|          └(R)─ COS333{24}[24]
+└(R)─ PHY124{6}[114]
+   ├(L)─ FSK700{30}[85]
+   |    ├(L)─ COS711{29}[34]
+   |    └(R)─ LST110{0}[84]
+   |       └(R)─ PHY114{5}[27]
+   └(R)─ PHY364{28}[109]
+      ├(L)─ PHY356{27}[76]
+      |    └(L)─ PHY310{26}[63]
+      |         └(L)─ PHY263{18}[31]
+      |              └(L)─ PHY255{17}[15]
+      └(R)─ WTW124{1}[97]
+         ├(L)─ UP0102{2}[58]
+         |    └(R)─ WTW123{4}[49]
+         |       └(L)─ WTW114{3}[32]
+         └(R)─ WTW211{19}[81]
+            └(R)─ WTW220{21}[64]
+               ├(L)─ WTW218{20}[35]
+               └(R)─ WTW248{16}[14]
+
+-- Description Treap<Cell>: --
+-------------------------------------------------------
+Artificial Intelligence (II) 711{29}[118]
+├(L)─ Academic information management 102{7}[65]
+|    └(R)─ Academic orientation 102{2}[64]
+|       └(R)─ Analysis 220{21}[39]
+└(R)─ Particle and astroparticle physics 310{26}[117]
+   ├(L)─ Imperative programming 132{9}[113]
+   |    ├(L)─ First course in physics 114{5}[112]
+   |    |    ├(L)─ Computer organisation and architecture 284{14}[91]
+   |    |    |    ├(L)─ Artificial intelligence 314{22}[51]
+   |    |    |    |    └(R)─ Computer graphics 344{25}[48]
+   |    |    |    |       └(L)─ Calculus 114{3}[29]
+   |    |    |    |            └(R)─ Calculus 218{20}[4]
+   |    |    |    └(R)─ Data structures and algorithms 212{12}[89]
+   |    |    |       ├(L)─ Concurrent systems 226{13}[75]
+   |    |    |       |    └(L)─ Computer security and ethics 330{23}[58]
+   |    |    |       └(R)─ Electronics, electromagnetism and quantum mechanics 356{27}[54]
+   |    |    └(R)─ General physics 263{18}[71]
+   |    |       └(L)─ First course in physics 124{6}[15]
+   |    └(R)─ Operating systems 122{8}[111]
+   |       └(L)─ Introduction to computer science 151{11}[91]
+   |            └(R)─ Mathematics 124{1}[76]
+   |               ├(L)─ Linear algebra 211{19}[73]
+   |               |    └(L)─ Language and study skills 110{0}[61]
+   |               └(R)─ Numerical analysis 123{4}[62]
+   └(R)─ Statistical mechanics, solid state physics and modelling 364{28}[91]
+      ├(L)─ Physics 700{30}[90]
+      |    └(R)─ Programming languages 333{24}[57]
+      |       └(L)─ Program design: Introduction 110{10}[10]
+      └(R)─ Waves, thermodynamics and modem physics 255{17}[91]
+         └(L)─ Vector analysis 248{16}[87]
+              └(L)─ Theoretical computer science 210{15}[57]
+
+---------------------- D O N E ------------------------
+-------------------------------------------------------
+---------- NOW TESTING THE DATABASE QUERIES -----------
+-------------------------------------------------------
+--------- Testing countOccurrences(col, data) ---------
+Dscription is not a valid column name in database
+-------------------------------------------------------
+Count 'Calculus 114': 1
+-------------------------------------------------------
+Count 'Mathematics 124': 1
+-------------------------------------------------------
+Count 'COS212': 1
+-------------------------------------------------------
+Count 'COS132': 1
+-------------------------------------------------------
+LST110  Language and study skills 110                                              6    1       Sem 1
+WTW124  Mathematics 124                                                            16   1       Sem 2
+UP0102  Academic orientation 102                                                   0    1       Year
+WTW114  Calculus 114                                                               16   1       Sem 1
+WTW123  Numerical analysis 123                                                     8    1       Sem 2
+PHY114  First course in physics 114                                                16   1       Sem 1
+PHY124  First course in physics 124                                                16   1       Sem 2
+AIM102  Academic information management 102                                        6    1       Sem 2
+COS122  Operating systems 122                                                      16   1       Sem 2
+COS132  Imperative programming 132                                                 16   1       Sem 1
+COS110  Program design: Introduction 110                                           16   1       Sem 2
+COS151  Introduction to computer science 151                                       8    1       Sem 1
+COS212  Data structures and algorithms 212                                         16   2       Sem 1
+COS226  Concurrent systems 226                                                     16   2       Sem 2
+COS284  Computer organisation and architecture 284                                 16   2       Sem 2
+COS210  Theoretical computer science 210                                           8    2       Sem 1
+WTW248  Vector analysis 248                                                        12   2       Sem 2
+PHY255  Waves, thermodynamics and modem physics 255                                24   2       Sem 1
+PHY263  General physics 263                                                        24   2       Sem 2
+WTW211  Linear algebra 211                                                         12   2       Sem 1
+WTW218  Calculus 218                                                               12   2       Sem 1
+WTW220  Analysis 220                                                               12   2       Sem 2
+COS314  Artificial intelligence 314                                                18   3       Sem 1
+COS330  Computer security and ethics 330                                           18   3       Sem 2
+COS333  Programming languages 333                                                  18   3       Sem 2
+COS344  Computer graphics 344                                                      18   3       Sem 1
+PHY310  Particle and astroparticle physics 310                                     18   3       Sem 2
+PHY356  Electronics, electromagnetism and quantum mechanics 356                    36   3       Sem 1
+PHY364  Statistical mechanics, solid state physics and modelling 364               36   3       Sem 2
+COS711  Artificial Intelligence (II) 711                                           15   4       Sem 2
+FSK700  Physics 700                                                                135  4       Year
+-------------------- D O N E --------------------------
+--------- Testing findFirstWhere(col, data) -----------
+Descriptio is not a valid column name in database
+-------------------------------------------------------
+WTW114  Calculus 114                                                               16   1       Sem 1
+-------------------------------------------------------
+COS212  Data structures and algorithms 212                                         16   2       Sem 1
+-------------------------------------------------------
+Empty Database
+-------------------------------------------------------
+-------------------- D O N E --------------------------
+------------ Printing the Indexes Arrays --------------
+-- Module Codes Treap<Cell>: --
+-------------------------------------------------------
+COS344{25}[121]
+├(L)─ COS122{8}[95]
+|    ├(L)─ AIM102{7}[54]
+|    |    └(R)─ COS110{10}[46]
+|    └(R)─ COS314{22}[72]
+|       ├(L)─ COS284{14}[62]
+|       |    └(L)─ COS151{11}[62]
+|       |         ├(L)─ COS132{9}[55]
+|       |         └(R)─ COS212{12}[61]
+|       |            ├(L)─ COS210{15}[61]
+|       |            └(R)─ COS226{13}[2]
+|       └(R)─ COS330{23}[52]
+|          └(R)─ COS333{24}[24]
+└(R)─ PHY124{6}[114]
+   ├(L)─ FSK700{30}[85]
+   |    ├(L)─ COS711{29}[34]
+   |    └(R)─ LST110{0}[84]
+   |       └(R)─ PHY114{5}[27]
+   └(R)─ PHY364{28}[109]
+      ├(L)─ PHY356{27}[76]
+      |    └(L)─ PHY310{26}[63]
+      |         └(L)─ PHY263{18}[31]
+      |              └(L)─ PHY255{17}[15]
+      └(R)─ WTW124{1}[97]
+         ├(L)─ UP0102{2}[58]
+         |    └(R)─ WTW123{4}[49]
+         |       └(L)─ WTW114{3}[32]
+         └(R)─ WTW211{19}[81]
+            └(R)─ WTW220{21}[64]
+               ├(L)─ WTW218{20}[35]
+               └(R)─ WTW248{16}[14]
+
+-- Description Treap<Cell>: --
+-------------------------------------------------------
+Artificial Intelligence (II) 711{29}[118]
+├(L)─ Academic information management 102{7}[65]
+|    └(R)─ Academic orientation 102{2}[64]
+|       └(R)─ Analysis 220{21}[39]
+└(R)─ Particle and astroparticle physics 310{26}[117]
+   ├(L)─ Imperative programming 132{9}[113]
+   |    ├(L)─ First course in physics 114{5}[112]
+   |    |    ├(L)─ Computer organisation and architecture 284{14}[91]
+   |    |    |    ├(L)─ Artificial intelligence 314{22}[51]
+   |    |    |    |    └(R)─ Computer graphics 344{25}[48]
+   |    |    |    |       └(L)─ Calculus 114{3}[30]
+   |    |    |    |            └(R)─ Calculus 218{20}[4]
+   |    |    |    └(R)─ Data structures and algorithms 212{12}[89]
+   |    |    |       ├(L)─ Concurrent systems 226{13}[75]
+   |    |    |       |    └(L)─ Computer security and ethics 330{23}[58]
+   |    |    |       └(R)─ Electronics, electromagnetism and quantum mechanics 356{27}[54]
+   |    |    └(R)─ General physics 263{18}[71]
+   |    |       └(L)─ First course in physics 124{6}[15]
+   |    └(R)─ Operating systems 122{8}[111]
+   |       └(L)─ Introduction to computer science 151{11}[91]
+   |            └(R)─ Mathematics 124{1}[76]
+   |               ├(L)─ Linear algebra 211{19}[73]
+   |               |    └(L)─ Language and study skills 110{0}[61]
+   |               └(R)─ Numerical analysis 123{4}[62]
+   └(R)─ Statistical mechanics, solid state physics and modelling 364{28}[91]
+      ├(L)─ Physics 700{30}[90]
+      |    └(R)─ Programming languages 333{24}[57]
+      |       └(L)─ Program design: Introduction 110{10}[10]
+      └(R)─ Waves, thermodynamics and modem physics 255{17}[91]
+         └(L)─ Vector analysis 248{16}[87]
+              └(L)─ Theoretical computer science 210{15}[57]
+
+-------------------------------------------------------
+--------------- Printing The Database -----------------
+LST110  Language and study skills 110                                              6    1       Sem 1
+WTW124  Mathematics 124                                                            16   1       Sem 2
+UP0102  Academic orientation 102                                                   0    1       Year
+WTW114  Calculus 114                                                               16   1       Sem 1
+WTW123  Numerical analysis 123                                                     8    1       Sem 2
+PHY114  First course in physics 114                                                16   1       Sem 1
+PHY124  First course in physics 124                                                16   1       Sem 2
+AIM102  Academic information management 102                                        6    1       Sem 2
+COS122  Operating systems 122                                                      16   1       Sem 2
+COS132  Imperative programming 132                                                 16   1       Sem 1
+COS110  Program design: Introduction 110                                           16   1       Sem 2
+COS151  Introduction to computer science 151                                       8    1       Sem 1
+COS212  Data structures and algorithms 212                                         16   2       Sem 1
+COS226  Concurrent systems 226                                                     16   2       Sem 2
+COS284  Computer organisation and architecture 284                                 16   2       Sem 2
+COS210  Theoretical computer science 210                                           8    2       Sem 1
+WTW248  Vector analysis 248                                                        12   2       Sem 2
+PHY255  Waves, thermodynamics and modem physics 255                                24   2       Sem 1
+PHY263  General physics 263                                                        24   2       Sem 2
+WTW211  Linear algebra 211                                                         12   2       Sem 1
+WTW218  Calculus 218                                                               12   2       Sem 1
+WTW220  Analysis 220                                                               12   2       Sem 2
+COS314  Artificial intelligence 314                                                18   3       Sem 1
+COS330  Computer security and ethics 330                                           18   3       Sem 2
+COS333  Programming languages 333                                                  18   3       Sem 2
+COS344  Computer graphics 344                                                      18   3       Sem 1
+PHY310  Particle and astroparticle physics 310                                     18   3       Sem 2
+PHY356  Electronics, electromagnetism and quantum mechanics 356                    36   3       Sem 1
+PHY364  Statistical mechanics, solid state physics and modelling 364               36   3       Sem 2
+COS711  Artificial Intelligence (II) 711                                           15   4       Sem 2
+FSK700  Physics 700                                                                135  4       Year
+-------------------------------------------------------
+
+
+--- Testing updateFirstWhere(col, updateCon, data) ----
+Descriptio is not a valid column name in database
+-------------------------------------------------------
+WTW114  Differentiation                                                            16   1       Sem 1
+COS711  GPT-4 Open AI                                                              15   4       Sem 2
+COS132  Procedural Programming                                                     16   1       Sem 1
+COS122  Windows For Example                                                        16   1       Sem 2
+POS800  Data structures and algorithms 212                                         16   2       Sem 1
+-------------------------------------------------------
+WTW124  Mathematics 124                                                            50   1       Sem 2
+-------------------------------------------------------
+Empty Database
+
+
+------------ Printing the Indexes Arrays --------------
+-- Module Codes Treap<Cell>: --
+-------------------------------------------------------
+POS800{12}[121]
+├(L)─ COS344{25}[121]
+|    ├(L)─ COS122{8}[95]
+|    |    ├(L)─ AIM102{7}[54]
+|    |    |    └(R)─ COS110{10}[46]
+|    |    └(R)─ COS314{22}[72]
+|    |       ├(L)─ COS284{14}[62]
+|    |       |    └(L)─ COS151{11}[62]
+|    |       |         ├(L)─ COS132{9}[55]
+|    |       |         └(R)─ COS210{15}[61]
+|    |       |            └(R)─ COS226{13}[2]
+|    |       └(R)─ COS330{23}[52]
+|    |          └(R)─ COS333{24}[24]
+|    └(R)─ PHY124{6}[114]
+|       ├(L)─ FSK700{30}[85]
+|       |    ├(L)─ COS711{29}[34]
+|       |    └(R)─ LST110{0}[84]
+|       |       └(R)─ PHY114{5}[27]
+|       └(R)─ PHY364{28}[109]
+|          └(L)─ PHY356{27}[76]
+|               └(L)─ PHY310{26}[63]
+|                    └(L)─ PHY263{18}[31]
+|                         └(L)─ PHY255{17}[15]
+└(R)─ WTW124{1}[97]
+   ├(L)─ UP0102{2}[58]
+   |    └(R)─ WTW123{4}[49]
+   |       └(L)─ WTW114{3}[32]
+   └(R)─ WTW211{19}[81]
+      └(R)─ WTW220{21}[64]
+         ├(L)─ WTW218{20}[35]
+         └(R)─ WTW248{16}[14]
+
+-- Description Treap<Cell>: --
+-------------------------------------------------------
+Particle and astroparticle physics 310{26}[117]
+├(L)─ First course in physics 114{5}[112]
+|    ├(L)─ Computer organisation and architecture 284{14}[91]
+|    |    ├(L)─ Academic information management 102{7}[65]
+|    |    |    └(R)─ Academic orientation 102{2}[64]
+|    |    |       └(R)─ Artificial intelligence 314{22}[51]
+|    |    |          ├(L)─ Analysis 220{21}[39]
+|    |    |          └(R)─ Computer graphics 344{25}[48]
+|    |    |             └(L)─ Calculus 218{20}[4]
+|    |    └(R)─ Data structures and algorithms 212{12}[89]
+|    |       ├(L)─ Concurrent systems 226{13}[75]
+|    |       |    └(L)─ Computer security and ethics 330{23}[58]
+|    |       └(R)─ Electronics, electromagnetism and quantum mechanics 356{27}[54]
+|    |          └(L)─ Differentiation{3}[46]
+|    └(R)─ Introduction to computer science 151{11}[91]
+|       ├(L)─ General physics 263{18}[71]
+|       |    └(L)─ First course in physics 124{6}[15]
+|       |         └(R)─ GPT-4 Open AI{29}[1]
+|       └(R)─ Mathematics 124{1}[76]
+|          ├(L)─ Linear algebra 211{19}[73]
+|          |    └(L)─ Language and study skills 110{0}[61]
+|          └(R)─ Numerical analysis 123{4}[62]
+└(R)─ Statistical mechanics, solid state physics and modelling 364{28}[91]
+   ├(L)─ Physics 700{30}[90]
+   |    └(R)─ Programming languages 333{24}[57]
+   |       └(L)─ Program design: Introduction 110{10}[10]
+   |            └(L)─ Procedural Programming{9}[2]
+   └(R)─ Waves, thermodynamics and modem physics 255{17}[91]
+      ├(L)─ Vector analysis 248{16}[87]
+      |    └(L)─ Theoretical computer science 210{15}[57]
+      └(R)─ Windows For Example{8}[55]
+
+-------------------------------------------------------
+--------------- Printing The Database -----------------
+LST110  Language and study skills 110                                              6    1       Sem 1
+WTW124  Mathematics 124                                                            50   1       Sem 2
+UP0102  Academic orientation 102                                                   0    1       Year
+WTW114  Differentiation                                                            16   1       Sem 1
+WTW123  Numerical analysis 123                                                     8    1       Sem 2
+PHY114  First course in physics 114                                                16   1       Sem 1
+PHY124  First course in physics 124                                                16   1       Sem 2
+AIM102  Academic information management 102                                        6    1       Sem 2
+COS122  Windows For Example                                                        16   1       Sem 2
+COS132  Procedural Programming                                                     16   1       Sem 1
+COS110  Program design: Introduction 110                                           16   1       Sem 2
+COS151  Introduction to computer science 151                                       8    1       Sem 1
+POS800  Data structures and algorithms 212                                         16   2       Sem 1
+COS226  Concurrent systems 226                                                     16   2       Sem 2
+COS284  Computer organisation and architecture 284                                 16   2       Sem 2
+COS210  Theoretical computer science 210                                           8    2       Sem 1
+WTW248  Vector analysis 248                                                        12   2       Sem 2
+PHY255  Waves, thermodynamics and modem physics 255                                24   2       Sem 1
+PHY263  General physics 263                                                        24   2       Sem 2
+WTW211  Linear algebra 211                                                         12   2       Sem 1
+WTW218  Calculus 218                                                               12   2       Sem 1
+WTW220  Analysis 220                                                               12   2       Sem 2
+COS314  Artificial intelligence 314                                                18   3       Sem 1
+COS330  Computer security and ethics 330                                           18   3       Sem 2
+COS333  Programming languages 333                                                  18   3       Sem 2
+COS344  Computer graphics 344                                                      18   3       Sem 1
+PHY310  Particle and astroparticle physics 310                                     18   3       Sem 2
+PHY356  Electronics, electromagnetism and quantum mechanics 356                    36   3       Sem 1
+PHY364  Statistical mechanics, solid state physics and modelling 364               36   3       Sem 2
+COS711  GPT-4 Open AI                                                              15   4       Sem 2
+FSK700  Physics 700                                                                135  4       Year
+-------------------------------------------------------
+-------------------- D O N E --------------------------
+--------- Testing removeFirstWhere(col, data) ---------
+Descriptio is not a valid column name in database
+-------------------------------------------------------
+Empty Database
+-------------------------------------------------------
+Empty Database
+-------------------------------------------------------
+WTW114  Differentiation                                                            16   1       Sem 1
+-------------------------------------------------------
+Empty Database
+-------------------------------------------------------
+LST110  Language and study skills 110                                              6    1       Sem 1
+WTW124  Mathematics 124                                                            50   1       Sem 2
+UP0102  Academic orientation 102                                                   0    1       Year
+WTW123  Numerical analysis 123                                                     8    1       Sem 2
+PHY114  First course in physics 114                                                16   1       Sem 1
+PHY124  First course in physics 124                                                16   1       Sem 2
+AIM102  Academic information management 102                                        6    1       Sem 2
+COS122  Windows For Example                                                        16   1       Sem 2
+COS132  Procedural Programming                                                     16   1       Sem 1
+COS110  Program design: Introduction 110                                           16   1       Sem 2
+COS151  Introduction to computer science 151                                       8    1       Sem 1
+POS800  Data structures and algorithms 212                                         16   2       Sem 1
+COS226  Concurrent systems 226                                                     16   2       Sem 2
+COS284  Computer organisation and architecture 284                                 16   2       Sem 2
+COS210  Theoretical computer science 210                                           8    2       Sem 1
+WTW248  Vector analysis 248                                                        12   2       Sem 2
+PHY255  Waves, thermodynamics and modem physics 255                                24   2       Sem 1
+PHY263  General physics 263                                                        24   2       Sem 2
+WTW211  Linear algebra 211                                                         12   2       Sem 1
+WTW218  Calculus 218                                                               12   2       Sem 1
+WTW220  Analysis 220                                                               12   2       Sem 2
+COS314  Artificial intelligence 314                                                18   3       Sem 1
+COS330  Computer security and ethics 330                                           18   3       Sem 2
+COS333  Programming languages 333                                                  18   3       Sem 2
+COS344  Computer graphics 344                                                      18   3       Sem 1
+PHY310  Particle and astroparticle physics 310                                     18   3       Sem 2
+PHY356  Electronics, electromagnetism and quantum mechanics 356                    36   3       Sem 1
+PHY364  Statistical mechanics, solid state physics and modelling 364               36   3       Sem 2
+COS711  GPT-4 Open AI                                                              15   4       Sem 2
+FSK700  Physics 700                                                                135  4       Year
+-------------------- D O N E --------------------------
+------- Testing TestingThe_AllWhere_Methods(col, data) -----------
+--- Testing updateAllWhere(col, updateCon, data) ----
+WTW124  Khalkhulas 124                                                             50   1       Sem 2
+--------------------- The Indexes Array ---------------------
+Particle and astroparticle physics 310{26}[117]
+├(L)─ First course in physics 114{5}[112]
+|    ├(L)─ Computer organisation and architecture 284{14}[91]
+|    |    ├(L)─ Academic information management 102{7}[65]
+|    |    |    └(R)─ Academic orientation 102{2}[64]
+|    |    |       └(R)─ Artificial intelligence 314{22}[51]
+|    |    |          ├(L)─ Analysis 220{21}[39]
+|    |    |          └(R)─ Computer graphics 344{25}[48]
+|    |    |             └(L)─ Calculus 218{20}[4]
+|    |    └(R)─ Data structures and algorithms 212{12}[89]
+|    |       ├(L)─ Concurrent systems 226{13}[75]
+|    |       |    └(L)─ Computer security and ethics 330{23}[58]
+|    |       └(R)─ Electronics, electromagnetism and quantum mechanics 356{27}[54]
+|    └(R)─ Introduction to computer science 151{11}[91]
+|       ├(L)─ General physics 263{18}[71]
+|       |    └(L)─ First course in physics 124{6}[15]
+|       |         └(R)─ GPT-4 Open AI{29}[1]
+|       └(R)─ Linear algebra 211{19}[73]
+|          ├(L)─ Language and study skills 110{0}[61]
+|          |    └(L)─ Khalkhulas 124{1}[55]
+|          └(R)─ Numerical analysis 123{4}[62]
+└(R)─ Statistical mechanics, solid state physics and modelling 364{28}[91]
+   ├(L)─ Physics 700{30}[90]
+   |    └(R)─ Programming languages 333{24}[57]
+   |       └(L)─ Program design: Introduction 110{10}[10]
+   |            └(L)─ Procedural Programming{9}[2]
+   └(R)─ Waves, thermodynamics and modem physics 255{17}[91]
+      ├(L)─ Vector analysis 248{16}[87]
+      |    └(L)─ Theoretical computer science 210{15}[57]
+      └(R)─ Windows For Example{8}[55]
+
+--- Testing findAllWhere(col, updateCon, data) ----
+Empty Database
+-------------------- D O N E --------------------------
